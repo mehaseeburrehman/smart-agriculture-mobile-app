@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Border -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,25 C 65,25 78,28 78,35 C 78,57 68,73 54,83 C 40,73 30,57 30,35 C 30,28 43,25 54,25 Z" />
+
+    <!-- Leaf Shape Inside Shield -->
+    <path
+        android:fillColor="#8ED79D"
+        android:pathData="M 54,34 C 67,42 71,59 58,70 C 51,76 43,69 41,60 C 39,47 48,37 54,34 Z" />
+
+    <!-- Leaf Stem / Vein -->
+    <path
+        android:strokeColor="#005226"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 50,71 C 51,62 53,52 57,41" />
+
+    <path
+        android:strokeColor="#005226"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 53,53 C 57,50 61,49 63,49" />
+
+    <path
+        android:strokeColor="#005226"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 51,60 C 47,59 45,58 44,57" />
+</vector>

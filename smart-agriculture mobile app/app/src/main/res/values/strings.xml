@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Smart Agriculture</string>
+    <string name="app_tagline">Field Health &amp; Crop Intelligence</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_advisories">Advisories</string>
+    <string name="nav_history">History</string>
+
+    <!-- General -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_close">Close</string>
+    <string name="action_view_all">View all</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_farmer">Peace, Farmer Malik</string>
+    <string name="morning_inspection">Morning Inspection</string>
+    <string name="current_zone">Punjab Zone • Multan</string>
+    <string name="home_weather_chip">28°C Partly Sunny</string>
+    <string name="check_leaf_title">Check a Leaf</string>
+    <string name="check_leaf_desc">Scan leaves instantly to detect diseases and get verified treatment steps tailored to local crops.</string>
+    <string name="start_disease_scan">Start Disease Scan</string>
+    <string name="instant_diagnosis">Instant AI Diagnosis</string>
+    <string name="spray_conditions">Spray Conditions</string>
+    <string name="current_field_microclimate">Current field microclimate</string>
+    <string name="spray_caution_badge">Caution for spraying</string>
+    <string name="spray_optimal_badge">Optimal for spraying</string>
+    <string name="spray_advisory_snippet">High relative humidity reduces droplet evaporation. Chemical wash-off risk increases if applied before 11:30 AM.</string>
+    <string name="metric_temp">Temp</string>
+    <string name="metric_humidity">Humidity</string>
+    <string name="metric_rain">Rain</string>
+    <string name="metric_wind">Wind</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_weather_advisory">Weather Advisory</string>
+    <string name="weather_advisory_sub">7-day trends</string>
+    <string name="action_soil_analysis">Soil Analysis</string>
+    <string name="soil_analysis_sub">NPK &amp; pH logs</string>
+    <string name="action_crop_guide">Crop Guide</string>
+    <string name="crop_guide_sub">Wheat &amp; cotton</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="total_count">%1$d Total</string>
+
+    <!-- Scanner Screen -->
+    <string name="leaf_scanner_title">Leaf Scanner</string>
+    <string name="capture_guide_title">Field Capture Guide</string>
+    <string name="capture_guide_desc">Ensure good light • Show one leaf clearly • Avoid blur &amp; harsh shadows</string>
+    <string name="align_leaf_tip">Align leaf inside frame in clear sunlight</string>
+    <string name="autofocus_ready">Autofocus Ready</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="change_crop">Change Crop</string>
+    <string name="leaf_model_active">Leaf Model Active</string>
+    <string name="flash_on">Flash On</string>
+    <string name="flash_off">Flash Off</string>
+    <string name="grid_toggle">Toggle Grid</string>
+
+    <!-- Crop Selection Sheet -->
+    <string name="select_crop_title">Select Active Crop</string>
+    <string name="select_crop_desc">Choose the model calibrated for your field</string>
+    <string name="status_active">Active</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_coming_soon">Coming Soon</string>
+
+    <!-- Image Preview & Analysis -->
+    <string name="image_preview_title">Confirm Leaf Image</string>
+    <string name="analyze_leaf_button">Analyze Leaf Now</string>
+    <string name="retake_button">Retake Photo</string>
+    <string name="analyzing_title">Analyzing Leaf</string>
+    <string name="step_uploading">Uploading leaf image to diagnostic service...</string>
+    <string name="step_morphology">Extracting leaf lesion shapes and color features...</string>
+    <string name="step_evaluating">Comparing against regional crop pathology models...</string>
+
+    <!-- Diagnosis Result -->
+    <string name="diagnosis_detail_title">Diagnosis Detail</string>
+    <string name="disease_detected">Disease Detected</string>
+    <string name="healthy_leaf">Healthy Foliage</string>
+    <string name="uncertain_result">Uncertain / Low Confidence</string>
+    <string name="model_confidence">%1$d%% Model Confidence</string>
+    <string name="high_match">High Match</string>
+    <string name="low_match">Low Match</string>
+    <string name="confidence_disclaimer">Confidence indicates visual pattern match probability against regional field databases, not clinical laboratory certainty. Confirm leaf symptoms thoroughly prior to treatment.</string>
+    <string name="identified_symptoms">Identified Symptoms</string>
+    <string name="possible_causes">Possible Environmental Causes</string>
+    <string name="organic_management">Organic Management</string>
+    <string name="chemical_intervention">Chemical Intervention</string>
+    <string name="preventive_measures">Preventive Measures</string>
+    <string name="safety_warning_title">Safety Warning</string>
+    <string name="safety_warning_desc">Always check locally approved chemical labels, wear personal protective equipment (PPE), and consult your local agricultural extension officer before application.</string>
+    <string name="save_to_field_record">Save Result to Field Record</string>
+    <string name="view_weather_risks">View Weather Risk Factors</string>
+    <string name="scan_another_leaf">Scan Another Leaf</string>
+    <string name="result_saved_toast">Result saved to field records</string>
+
+    <!-- Low Confidence / Unknown -->
+    <string name="low_confidence_title">Leaf Pattern Inconclusive</string>
+    <string name="low_confidence_desc">The visual match confidence is below the safety threshold (%1$d%%). To avoid incorrect chemical use, please follow recommendations below.</string>
+    <string name="rec_retake_light">Retake photo under diffuse natural daylight</string>
+    <string name="rec_single_leaf">Focus on a single representative leaf blade</string>
+    <string name="rec_consult_ext">Visit local Agronomy Extension office with a sample</string>
+    <string name="action_retake">Retake Photo</string>
+
+    <!-- Advisories & Weather -->
+    <string name="advisories_title">Advisories And Weather</string>
+    <string name="purpose_growing">Growing</string>
+    <string name="purpose_sowing">Sowing</string>
+    <string name="purpose_spraying">Spraying</string>
+    <string name="sub_optimal_window">Sub-optimal Window</string>
+    <string name="optimal_window">Optimal Spray Window</string>
+    <string name="unfavorable_conditions">Unfavorable Conditions</string>
+    <string name="recommended_window">Recommended Window</string>
+    <string name="microclimate_header">Micro-Climate Current Conditions</string>
+    <string name="field_synced">Field sensor synced</string>
+    <string name="rain_probability">Rain Prob.</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="agronomic_risk_breakdown">Agronomic Risk Breakdown</string>
+    <string name="active_factors">%1$d Active Factors</string>
+    <string name="next_action">Next Action:</string>
+    <string name="set_spray_alert">Set Spray Window Alert</string>
+    <string name="weather_attribution">Weather data provided by Open-Meteo API</string>
+    <string name="last_updated">Last updated %1$s</string>
+
+    <!-- Soil Analysis -->
+    <string name="soil_analysis_title">Soil Health Analysis</string>
+    <string name="nitrogen_label">Nitrogen (N)</string>
+    <string name="nitrogen_unit">kg/ha</string>
+    <string name="phosphorus_label">Phosphorus (P)</string>
+    <string name="phosphorus_unit">kg/ha</string>
+    <string name="potassium_label">Potassium (K)</string>
+    <string name="potassium_unit">kg/ha</string>
+    <string name="ph_label">Soil pH Level</string>
+    <string name="moisture_label">Soil Moisture (%)</string>
+    <string name="field_plot_name">Field Plot / Sector Name</string>
+    <string name="run_soil_analysis">Evaluate Soil Condition</string>
+    <string name="soil_scorecard">Soil Health Scorecard</string>
+    <string name="fertilizer_recommendations">Recommended Fertilizer Plan</string>
+    <string name="organic_soil_amendments">Organic Soil Amendments</string>
+
+    <!-- History -->
+    <string name="history_title">Field Records &amp; History</string>
+    <string name="filter_all">All</string>
+    <string name="filter_scans">Leaf Scans</string>
+    <string name="filter_soil">Soil Tests</string>
+    <string name="filter_weather">Advisories</string>
+    <string name="empty_history">No records saved yet</string>
+    <string name="empty_history_sub">Scanned leaves and soil tests will appear here</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; Backend</string>
+    <string name="backend_section">FastAPI Backend Connection</string>
+    <string name="api_url_label">API Base URL</string>
+    <string name="api_url_hint">e.g. http://192.168.1.100:8000</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="data_source_mode">Data Source Mode</string>
+    <string name="use_mock_data">Use Mock Data &amp; Repositories</string>
+    <string name="use_mock_sub">Offline mock repositories (switch off when FastAPI is running)</string>
+    <string name="language_section">Language / زبان</string>
+    <string name="about_section">About Application</string>
+    <string name="connection_testing">Testing connection...</string>
+    <string name="connection_success">Connection successful! (HTTP 200 OK)</string>
+    <string name="connection_failed">Connection failed. Check IP and port.</string>
+</resources>

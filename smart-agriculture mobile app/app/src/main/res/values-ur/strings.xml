@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">اسمارٹ ایگریکلچر</string>
+    <string name="app_tagline">کھیت کی صحت اور فصل کی معلومات</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ہوم</string>
+    <string name="nav_scan">اسکین</string>
+    <string name="nav_advisories">مشورے</string>
+    <string name="nav_history">تاریخچہ</string>
+
+    <!-- General -->
+    <string name="action_back">واپس</string>
+    <string name="action_cancel">منسوخ</string>
+    <string name="action_confirm">تصدیق</string>
+    <string name="action_save">محفوظ کریں</string>
+    <string name="action_refresh">تازہ کریں</string>
+    <string name="action_retry">دوبارہ کوشش</string>
+    <string name="action_close">بند کریں</string>
+    <string name="action_view_all">سب دیکھیں</string>
+    <string name="action_search">تلاش کریں</string>
+    <string name="action_settings">ترتیبات</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_farmer">خوش آمدید، کسان ملک</string>
+    <string name="morning_inspection">صبح کا معائنہ</string>
+    <string name="current_zone">پنجاب زون • ملتان</string>
+    <string name="home_weather_chip">28°C جزوی دھوپ</string>
+    <string name="check_leaf_title">پتے کا معائنہ کریں</string>
+    <string name="check_leaf_desc">بیماریوں کا فوری پتا چلانے اور مقامی فصل کے مطابق تصدیق شدہ علاج حاصل کرنے کے لیے پتے اسکین کریں۔</string>
+    <string name="start_disease_scan">بیماری کا اسکین شروع کریں</string>
+    <string name="instant_diagnosis">فوری اے آئی تشخیص</string>
+    <string name="spray_conditions">اسپرے کے حالات</string>
+    <string name="current_field_microclimate">کھیت کا موجودہ موسم</string>
+    <string name="spray_caution_badge">اسپرے میں احتیاط کی ضرورت</string>
+    <string name="spray_optimal_badge">اسپرے کے لیے بہترین وقت</string>
+    <string name="spray_advisory_snippet">زیادہ نمی کی وجہ سے دوا جلد اثر نہیں کرتی۔ 11:30 بجے سے پہلے اسپرے سے دوا ضائع ہو سکتی ہے۔</string>
+    <string name="metric_temp">درجہ حرارت</string>
+    <string name="metric_humidity">نمی</string>
+    <string name="metric_rain">بارش</string>
+    <string name="metric_wind">ہوا</string>
+    <string name="quick_actions">فوری اقدامات</string>
+    <string name="action_weather_advisory">موسمی مشورہ</string>
+    <string name="weather_advisory_sub">7 روزہ رجحانات</string>
+    <string name="action_soil_analysis">مٹی کا تجزیہ</string>
+    <string name="soil_analysis_sub">این پی کے اور پی ایچ</string>
+    <string name="action_crop_guide">فصل گائیڈ</string>
+    <string name="crop_guide_sub">گندم اور کپاس</string>
+    <string name="recent_scans">حالیہ اسکینز</string>
+    <string name="total_count">کل %1$d</string>
+
+    <!-- Scanner Screen -->
+    <string name="leaf_scanner_title">پتہ اسکینر</string>
+    <string name="capture_guide_title">تصویر لینے کی ہدایات</string>
+    <string name="capture_guide_desc">اچھی روشنی ہو • صرف ایک پتہ دکھائیں • دھندلاہٹ اور سائے سے بچیں</string>
+    <string name="align_leaf_tip">پتے کو دھوپ میں دائرے کے اندر رکھیں</string>
+    <string name="autofocus_ready">آٹو فوکس تیار ہے</string>
+    <string name="take_photo">تصویر لیں</string>
+    <string name="gallery">گیلری</string>
+    <string name="change_crop">فصل تبدیل کریں</string>
+    <string name="leaf_model_active">ماڈل فعال ہے</string>
+    <string name="flash_on">فلیش آن</string>
+    <string name="flash_off">فلیش آف</string>
+    <string name="grid_toggle">گرڈ بدلیں</string>
+
+    <!-- Crop Selection Sheet -->
+    <string name="select_crop_title">مطلوبہ فصل منتخب کریں</string>
+    <string name="select_crop_desc">اپنے کھیت کے لیے ماڈل کا انتخاب کریں</string>
+    <string name="status_active">فعال</string>
+    <string name="status_ready">تیار</string>
+    <string name="status_coming_soon">جلد آرہا ہے</string>
+
+    <!-- Image Preview & Analysis -->
+    <string name="image_preview_title">تصویر کی تصدیق کریں</string>
+    <string name="analyze_leaf_button">ابھی تجزیہ کریں</string>
+    <string name="retake_button">دوبارہ تصویر لیں</string>
+    <string name="analyzing_title">پتے کا تجزیہ ہو رہا ہے</string>
+    <string name="step_uploading">تصویر کو تشخیصی نظام پر بھیجا جا رہا ہے...</string>
+    <string name="step_morphology">پتے کے داغ اور علامات کی پیمائش کی جا رہی ہے...</string>
+    <string name="step_evaluating">مقامی بیماریوں کے ماڈلز سے موازنہ کیا جا رہا ہے...</string>
+
+    <!-- Diagnosis Result -->
+    <string name="diagnosis_detail_title">تشخیص کی تفصیل</string>
+    <string name="disease_detected">بیماری کی نشاندہی ہوئی</string>
+    <string name="healthy_leaf">صحت مند پتہ</string>
+    <string name="uncertain_result">غیر یقینی نتیجہ</string>
+    <string name="model_confidence">%1$d%% ماڈل کا اعتماد</string>
+    <string name="high_match">زیادہ مماثلت</string>
+    <string name="low_match">کم مماثلت</string>
+    <string name="confidence_disclaimer">یہ فیصد لیبارٹری کا قطعی نتیجہ نہیں ہے۔ علاج شروع کرنے سے پہلے علامات کی تسلی کر لیں۔</string>
+    <string name="identified_symptoms">شناخت شدہ علامات</string>
+    <string name="possible_causes">ماحولیاتی وجوہات</string>
+    <string name="organic_management">قدرتی اور نامیاتی علاج</string>
+    <string name="chemical_intervention">کیمیائی اسپرے کا علاج</string>
+    <string name="preventive_measures">حفاظتی تدابیر</string>
+    <string name="safety_warning_title">حفاظتی انتباہ</string>
+    <string name="safety_warning_desc">ہمیشہ زہر کے لیبل پر دی گئی ہدایات پڑھیں، حفاظتی سامان پہنیں، اور زرعی ماہر سے مشورہ کریں۔</string>
+    <string name="save_to_field_record">کھیت کے ریکارڈ میں محفوظ کریں</string>
+    <string name="view_weather_risks">موسمی خطرات دیکھیں</string>
+    <string name="scan_another_leaf">نیا پتہ اسکین کریں</string>
+    <string name="result_saved_toast">نتیجہ ریکارڈ میں محفوظ کر لیا گیا ہے</string>
+
+    <!-- Low Confidence / Unknown -->
+    <string name="low_confidence_title">پتے کے نشانات واضح نہیں ہیں</string>
+    <string name="low_confidence_desc">ماڈل کے اعتماد کی شرح (%1$d%%) سے کم ہے۔ غلط دوا کے استعمال سے بچنے کے لیے درج ذیل پر عمل کریں۔</string>
+    <string name="rec_retake_light">قدرتی روشنی میں دوبارہ تصویر لیں</string>
+    <string name="rec_single_leaf">صرف ایک متاثرہ پتے پر فوکس کریں</string>
+    <string name="rec_consult_ext">قریبی محکمہ زراعت کے دفتر سے رابطہ کریں</string>
+    <string name="action_retake">دوبارہ تصویر لیں</string>
+
+    <!-- Advisories & Weather -->
+    <string name="advisories_title">مشورے اور موسم</string>
+    <string name="purpose_growing">بڑھوتری</string>
+    <string name="purpose_sowing">کاشت</string>
+    <string name="purpose_spraying">اسپرے</string>
+    <string name="sub_optimal_window">غیر موزوں وقت</string>
+    <string name="optimal_window">اسپرے کے لیے بہترین وقت</string>
+    <string name="unfavorable_conditions">ناسازگار موسمی حالات</string>
+    <string name="recommended_window">تجویز کردہ وقت</string>
+    <string name="microclimate_header">کھیت کے موسمی حالات</string>
+    <string name="field_synced">سنسر منسلک ہے</string>
+    <string name="rain_probability">بارش کا امکان</string>
+    <string name="precipitation">بارش کی مقدار</string>
+    <string name="wind_speed">ہوا کی رفتار</string>
+    <string name="agronomic_risk_breakdown">زرعی خطرات کا تجزیہ</string>
+    <string name="active_factors">%1$d فعال عوامل</string>
+    <string name="next_action">اگلا اقدام:</string>
+    <string name="set_spray_alert">اسپرے کا الارم لگائیں</string>
+    <string name="weather_attribution">موسم کا ڈیٹا Open-Meteo API سے فراہم کردہ</string>
+    <string name="last_updated">آخری بار اپ ڈیٹ: %1$s</string>
+
+    <!-- Soil Analysis -->
+    <string name="soil_analysis_title">مٹی کی صحت کا تجزیہ</string>
+    <string name="nitrogen_label">نائٹروجن (N)</string>
+    <string name="nitrogen_unit">کلوگرام/ایکڑ</string>
+    <string name="phosphorus_label">فاسفورس (P)</string>
+    <string name="phosphorus_unit">کلوگرام/ایکڑ</string>
+    <string name="potassium_label">پوٹاشیم (K)</string>
+    <string name="potassium_unit">کلوگرام/ایکڑ</string>
+    <string name="ph_label">مٹی کی پی ایچ (pH)</string>
+    <string name="moisture_label">مٹی کی نمی (%)</string>
+    <string name="field_plot_name">کھیت یا بلاک کا نام</string>
+    <string name="run_soil_analysis">مٹی کی جانچ کریں</string>
+    <string name="soil_scorecard">مٹی کی صحت کا اسکور کارڈ</string>
+    <string name="fertilizer_recommendations">تجویز کردہ کھاد کا منصوبہ</string>
+    <string name="organic_soil_amendments">نامیاتی کھاد کی تجاویز</string>
+
+    <!-- History -->
+    <string name="history_title">کھیت کے ریکارڈز</string>
+    <string name="filter_all">تمام</string>
+    <string name="filter_scans">پتوں کے اسکین</string>
+    <string name="filter_soil">مٹی کے ٹیسٹ</string>
+    <string name="filter_weather">موسمی مشورے</string>
+    <string name="empty_history">کوئی ریکارڈ موجود نہیں ہے</string>
+    <string name="empty_history_sub">اسکین کیے گئے پتے اور ٹیسٹ یہاں محفوظ ہوں گے</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ترتیبات اور سرور</string>
+    <string name="backend_section">FastAPI سرور کنکشن</string>
+    <string name="api_url_label">سرور کا پتہ (API Base URL)</string>
+    <string name="api_url_hint">مثال: http://192.168.1.100:8000</string>
+    <string name="test_connection">کنکشن چیک کریں</string>
+    <string name="data_source_mode">ڈیٹا موڈ</string>
+    <string name="use_mock_data">آف لائن فرضی ڈیٹا استعمال کریں</string>
+    <string name="use_mock_sub">جب سرور نہ چل رہا ہو تو آف لائن موڈ فعال رکھیں</string>
+    <string name="language_section">زبان / Language</string>
+    <string name="about_section">ایپ کے بارے میں</string>
+    <string name="connection_testing">کنکشن چیک کیا جا رہا ہے...</string>
+    <string name="connection_success">سرور سے رابطہ کامیاب ہو گیا ہے! (HTTP 200)</string>
+    <string name="connection_failed">رابطہ نہیں ہو سکا۔ سرور کا پتہ چیک کریں۔</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "Smart Agriculture",
+  "description": "Smart Agriculture mobile companion for leaf disease diagnosis, weather advisories, soil analysis, and field records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
